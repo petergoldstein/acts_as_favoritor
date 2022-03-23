@@ -30,6 +30,8 @@ Gem::Specification.new do |gem|
 
   gem.required_ruby_version = '>= 2.5'
 
+  gem.metadata['rubygems_mfa_required'] = 'true'
+
   gem.add_dependency 'activerecord', '>= 5.0'
 
   gem.add_development_dependency 'factory_bot'
